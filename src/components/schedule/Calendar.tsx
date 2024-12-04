@@ -101,12 +101,12 @@ export const Calendar: Component = () => {
     series.data.setAll(data);
 
     // Enable range selection
-    const rangeSelector = chart.set(
-      "scrollbarX",
-      am5.Scrollbar.new(root, {
-        orientation: "horizontal",
-      })
-    );
+    // const rangeSelector = chart.set(
+    //   "scrollbarX",
+    //   am5.Scrollbar.new(root, {
+    //     orientation: "horizontal",
+    //   })
+    // );
 
     // Add cursor
     chart.set("cursor", am5xy.XYCursor.new(root, {

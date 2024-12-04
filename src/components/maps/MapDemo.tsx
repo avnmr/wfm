@@ -1,4 +1,4 @@
-import { Component, onMount } from "solid-js";
+import { Component } from "solid-js";
 import Map from "solid-map-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 

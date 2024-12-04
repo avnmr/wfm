@@ -67,10 +67,12 @@ const EmployeeList: Component = () => {
   ];
 
   const handleEdit = (employee: any) => {
+    console.log(employee);
     // Handle edit logic
   };
 
   const handleDelete = (employee: any) => {
+    console.log(employee);
     // Handle delete logic
   };
 
