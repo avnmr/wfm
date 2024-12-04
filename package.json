@@ -1,0 +1,31 @@
+{
+  "name": "wfm-fe",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@amcharts/amcharts5": "^5.10.8",
+    "@solid-primitives/storage": "^4.2.1",
+    "@solidjs/router": "^0.15.1",
+    "ag-grid-community": "^31.3.4",
+    "ag-grid-solid": "^31.1.1",
+    "flowbite": "^2.5.2",
+    "maplibre-gl": "^4.7.1",
+    "solid-js": "^1.9.3",
+    "solid-js-form": "^0.1.8",
+    "solid-map-gl": "^1.11.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.1",
+    "vite-plugin-solid": "^2.11.0"
+  }
+}
